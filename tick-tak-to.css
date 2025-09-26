@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #b8b2ff;
+}
+
+
+
+.box
+{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    margin:3px;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 2px 2px gray; */
+    font-weight: 700px;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+#rbtn{
+    width: 150px;
+    height: 30px; 
+    background-color: orangered;
+    border-radius: 5px;
+    font-size: larger;
+  
+    color: #fff;
+    text-align: center
+}
+.row{
+   display: flex;gap: 5px; 
+   justify-content: center;
+   font-family: " Cambria";
+   font-weight: 500;
+}
+label{
+
+     display: block;         /* makes <label> behave like a block element */
+    text-align: center;     /* centers the text inside the label */
+    margin-top: 100px;
+    font-size: xx-large;
+    color: rgb(45, 45, 46);
+
+
+}
