@@ -1,0 +1,242 @@
+<?php
+
+             $var_cel01 = "" ;
+            $var_cel02 = "" ;
+            $var_cel03 = "" ;
+            
+            $var_cel04 = "" ;
+            $var_cel05 = "" ;
+            $var_cel06 = "" ;
+            
+
+            $var_cel07 = "" ;
+            $var_cel08 = "" ;
+            $var_cel09 = "" ;
+     if(isset($_POST['reset_gm']))
+     {
+             $var_cel01 = "" ;
+            $var_cel02 = "" ;
+            $var_cel03 = "" ;
+            
+            $var_cel04 = "" ;
+            $var_cel05 = "" ;
+            $var_cel06 = "" ;
+            
+
+            $var_cel07 = "" ;
+            $var_cel08 = "" ;
+            $var_cel09 = "" ;
+     }
+
+   ///////////////////////////////////////////////////////////////////////////////////////////////////////  
+  if(isset($_POST['start_gm']))
+  {
+
+    for($i=0;$i<=9;$i++)
+    {
+     $var_cel01     = $_POST['cel01'];
+     $var_cel02     = $_POST['cel02'];
+     $var_cel03     = $_POST['cel03'];
+
+     $var_cel04     = $_POST['cel04'];
+     $var_cel05     = $_POST['cel05'];
+     $var_cel06     = $_POST['cel06'];
+
+     $var_cel07     = $_POST['cel07'];
+     $var_cel08     = $_POST['cel08'];
+     $var_cel09     = $_POST['cel09'];
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+    if(isset($_POST['cel01']))
+     {
+        if($Player_01 == 1)
+        {
+            echo $var_cel01 =   "O";
+            $Player_01 = 0;
+        }
+
+        else
+        {
+            echo $var_cel01 =   "X";
+            $Player_01 = 0;
+        }
+     }
+////////////////////////////////////////////////////////////////////////////////////////////////////
+       if(isset($_POST['cel02']))
+     {
+        if($Player_01 == 1)
+        {
+            echo $var_cel02 =   "O";
+            $Player_01 = 0;
+        }
+
+        else
+        {
+            echo $var_cel02 =   "X";
+            $Player_01 = 0;
+        }
+     }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+       if(isset($_POST['cel03']))
+     {
+        if($Player_01 == 1)
+        {
+            echo $var_cel03 =   "O";
+            $Player_01 = 0;
+        }
+
+        else
+        {
+            echo $var_cel03 =   "X";
+            $Player_01 = 0;
+        }
+     }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+       if(isset($_POST['cel04']))
+     {
+        if($Player_01 == 1)
+        {
+            echo $var_cel04 =   "O";
+            $Player_01 = 0;
+        }
+
+        else
+        {
+            echo $var_cel04 =   "X";
+            $Player_01 = 0;
+        }
+     }
+////////////////////////////////////////////////////////////////////////////////////////////////////
+       if(isset($_POST['cel05']))
+     {
+        if($Player_01 == 1)
+        {
+            echo $var_cel05 =   "O";
+            $Player_01 = 0;
+        }
+
+        else
+        {
+            echo $var_cel05 =   "X";
+            $Player_01 = 0;
+        }
+     }
+////////////////////////////////////////////////////////////////////////////////////////////////////
+       if(isset($_POST['cel06']))
+     {
+        if($Player_01 == 1)
+        {
+            echo $var_cel06 =   "O";
+            $Player_01 = 0;
+        }
+
+        else
+        {
+            echo $var_cel06 =   "X";
+            $Player_01 = 0;
+        }
+     }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+       if(isset($_POST['cel07']))
+     {
+        if($Player_01 == 1)
+        {
+            echo $var_cel07 =   "O";
+            $Player_01 = 0;
+        }
+
+        else
+        {
+            echo $var_cel07 =   "X";
+            $Player_01 = 0;
+        }
+     }
+////////////////////////////////////////////////////////////////////////////////////////////////////
+       if(isset($_POST['cel08']))
+     {
+        if($Player_01 == 1)
+        {
+            echo $var_cel08 =   "O";
+            $Player_01 = 0;
+        }
+
+        else
+        {
+            echo $var_cel08 =   "X";
+            $Player_01 = 0;
+        }
+     }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+       if(isset($_POST['cel09']))
+     {
+        if($Player_01 == 1)
+        {
+            echo $var_cel09 =   "O";
+            $Player_01 = 0;
+        }
+
+        else
+        {
+            echo $var_cel09 =   "X";
+            $Player_01 = 0;
+        }
+     }
+
+
+
+
+
+  }
+}
+  
+
+
+
+
+
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tick-tak-to.css">
+    <title>Document</title>
+</head>
+<body>
+      <div style="margin-top: 150px;">
+    <div class="row" >
+    <div class="box" ><input type="button" class="box" name="cel01" value="<?php echo $var_cel01; ?>"> </div>
+    <div class="box"><input type="checkbox" class="box"name="cel02" value="<?php echo $var_cel02; ?>" > </div>
+    <div class="box"><input type="checkbox" class="box" name="cel03" value="<?php echo $var_cel03; ?>" > </div>
+
+     </div>
+     <div class="row">
+    <div class="box"><input type="checkbox" class="box" name="cel04" value="<?php echo $var_cel04; ?>"> </div>
+    <div class="box"><input type="checkbox" class="box" name="cel05" value="<?php echo $var_cel05; ?>"> </div>
+    <div class="box"><input type="checkbox" class="box" name="cel06" value="<?php echo $var_cel06; ?>"> </div>
+
+     </div>
+    <div class="row" >
+    <div class="box"><input type="checkbox" class="box" name="cel07" value="<?php echo $var_cel07; ?>"> </div>
+    <div class="box"><input type="checkbox" class="box" name="cel08" value="<?php echo $var_cel08; ?>"> </div>
+    <div class="box"><input type="checkbox" class="box" name="cel09" value="<?php echo $var_cel09; ?>"> </div>
+
+
+    </div>
+         
+        </div>
+
+        <div class="row" style="margin-top: 20px;">
+                  <input type="submit" value="Start" name="start_gm" id="rbtn">
+                  <input type="reset" value="Reset" name="reset_gm" id="rbtn">
+            </div>
+    </body>
+</html>
